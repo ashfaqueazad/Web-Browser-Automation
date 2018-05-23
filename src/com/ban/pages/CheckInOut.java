@@ -40,8 +40,8 @@ public class CheckInOut
 		try{
 		driver.get("https://www.barnesandnoble.com/account/login-frame.jsp?tplName=login&parentUrl=http%3a%2f%2fwww.barnesandnoble.com%2f&isCheckout=&isNookLogin=&isEgift=&customerkey=&intent=&emailSub=");
 		driver.findElement(By.xpath("//form[contains(@id,'loginForm')]")).click();
-		//driver.findElement(By.xpath("//input[contains(@id,'email')]")).sendKeys("ashfaqueazadmsit@yahoo.in");
-		driver.findElement(By.xpath("//input[contains(@id,'password')]")).sendKeys("Bnazad1");
+		//driver.findElement(By.xpath("//input[contains(@id,'email')]")).sendKeys("####");
+		driver.findElement(By.xpath("//input[contains(@id,'password')]")).sendKeys("###");
 		driver.findElement(By.xpath("//input[contains(@class,'btn-submit')]")).submit();
 		System.out.println("2.Sign in working fine");
 		}catch(Exception e){
